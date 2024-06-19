@@ -403,6 +403,7 @@ hal_attribute(weaver);
 hal_attribute(wifi);
 hal_attribute(wifi_hostapd);
 hal_attribute(wifi_supplicant);
+hal_attribute(fancontroller);
 
 # HwBinder services offered across the core-vendor boundary
 #
@@ -449,3 +450,7 @@ attribute charger_type;
 
 # All types of ART properties.
 attribute dalvik_config_prop_type;
+
+# attribute hal_fancontroller;
+# attribute hal_fancontroller_client;
+# attribute hal_fancontroller_server;
